@@ -1,0 +1,171 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/24px Arial, Tahoma, sans-serif;
+	background-color: #ebebeb;
+}
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a, a:hover {text-decoration: none;}
+
+@font-face {
+    font-family: 'NexaHeavy';
+    src: url('../fonts/NexaHeavy.eot');
+    src: url('../fonts/NexaHeavy.eot') format('embedded-opentype'),
+         url('../fonts/NexaHeavy.woff2') format('woff2'),
+         url('../fonts/NexaHeavy.woff') format('woff'),
+         url('../fonts/NexaHeavy.ttf') format('truetype'),
+         url('../fonts/NexaHeavy.svg#NexaHeavy') format('svg');
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight.eot');
+    src: url('../fonts/NexaLight.eot') format('embedded-opentype'),
+         url('../fonts/NexaLight.woff2') format('woff2'),
+         url('../fonts/NexaLight.woff') format('woff'),
+         url('../fonts/NexaLight.ttf') format('truetype'),
+         url('../fonts/NexaLight.svg#NexaLight') format('svg');
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float:left;}
+.right {float:right;}
+.text-right {text-align:right;}
+
+
+body {
+	margin: 0;
+	background: #232533 url(img/bg.png) repeat ;
+}
+#wrapper,#header,#sidebar-L,#sidebar-R,#content,#footer {
+	padding: 5px 10px;
+} 
+#wrapper {
+	width: 1400px;
+	padding: 0;
+	margin: 0 auto;
+}
+#header {
+	height: 170px;
+	margin: 0;
+	margin-bottom: 10px;
+	background: url(img/header.jpg);
+}
+#sidebar-L {
+	height: 400px;
+	background-color: #8a999f;
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+#sidebar-R {
+	height: 400px;
+	background-color: #8a999f;
+	width: 200px;
+	float: right;
+	margin-bottom: 10px;
+}
+#content {
+	background-color: #c7d4d9;
+	width: 820px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#footer {
+	height: 100px;
+	background-color: #ffffff;
+	margin: 10px auto;
+	min-width: 500px;
+}
+.clear {
+	clear: both;
+}
+.social {
+	margin: 0 auto;
+}
+.social a {
+	display: inline-block;
+	margin-left: 25px;
+	padding-left: 20px;
+	color: #8f8f8f;
+	font-size: 12px;
+	height: 13px;
+	line-height: 13px;
+	background: url(img/social-ic.png) no-repeat;
+
+}
+.social a:hover {color: #555;}
+.social a:first-child { margin-left: 0px; }
+
+.social a.tw {background-position: 0 0;}
+.social a.fb {background-position: 0 -13px;}
+.social a.rs {background-position: 0 -26px;}
+.social a.em {background-position: 0 -39px;}
+
+
+h1 {
+	font-size: 14px;
+	font-family: Tahoma;
+}
+
+.content-left {
+	display: block;
+	width: 160px;
+	padding: 4px;
+	height: 100px;
+	float: left;
+}
+
+.content-right {
+	display: block;
+	padding: 3px;
+	padding-left: 10px;
+	overflow: hidden;
+	
+	
+}
+.wrapper-content {
+	height: 100px;
+}
+.portrait {
+	width: 160px;
+	height: 120px;
+	display: block;
+	float: left;
+}
