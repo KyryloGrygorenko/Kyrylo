@@ -37,26 +37,6 @@ ol, ul {list-style: none;}
 
 a, a:hover {text-decoration: none;}
 
-@font-face {
-    font-family: 'NexaHeavy';
-    src: url('../fonts/NexaHeavy.eot');
-    src: url('../fonts/NexaHeavy.eot') format('embedded-opentype'),
-         url('../fonts/NexaHeavy.woff2') format('woff2'),
-         url('../fonts/NexaHeavy.woff') format('woff'),
-         url('../fonts/NexaHeavy.ttf') format('truetype'),
-         url('../fonts/NexaHeavy.svg#NexaHeavy') format('svg');
-}
-
-@font-face {
-    font-family: 'NexaLight';
-    src: url('../fonts/NexaLight.eot');
-    src: url('../fonts/NexaLight.eot') format('embedded-opentype'),
-         url('../fonts/NexaLight.woff2') format('woff2'),
-         url('../fonts/NexaLight.woff') format('woff'),
-         url('../fonts/NexaLight.ttf') format('truetype'),
-         url('../fonts/NexaLight.svg#NexaLight') format('svg');
-}
-
 .clearfix:before,
 .clearfix:after {
 	content: " ";
@@ -150,6 +130,7 @@ h1 {
 	padding: 4px;
 	height: 100px;
 	float: left;
+	overflow:hidden;
 }
 
 .content-right {
