@@ -47,23 +47,25 @@ a, a:hover {text-decoration: none;}
 .left {float:left;}
 .right {float:right;}
 .text-right {text-align:right;}
-
+h1 {
+	font-size: 20px;
+}
 
 body {
 	margin: 0;
 	background: #232533 url(img/bg.png) repeat ;
 }
 #wrapper,#header,#sidebar-L,#sidebar-R,#content,#footer {
+	border-radius: 3px;
 	padding: 5px 10px;
 } 
 #wrapper {
 	width: 1400px;
-	padding: 0;
-	margin: 0 auto;
+	padding: 10px;
+	margin: 10px auto;
 }
 #header {
 	height: 170px;
-	margin: 0;
 	margin-bottom: 10px;
 	background: url(img/header.jpg);
 }
@@ -82,10 +84,11 @@ body {
 	margin-bottom: 10px;
 }
 #content {
-	background-color: #c7d4d9;
-	width: 820px;
+	background-color: #f3f4f7;
 	margin: 0 auto;
 	overflow: hidden;
+	width: 800px;
+	padding: 0;
 }
 #footer {
 	height: 100px;
@@ -124,29 +127,33 @@ h1 {
 	font-family: Tahoma;
 }
 
-.content-left {
-	display: block;
-	width: 160px;
-	padding: 4px;
-	height: 100px;
-	float: left;
-	overflow:hidden;
+table {
+	width: 100%;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+
+}
+table td {
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+
 }
 
-.content-right {
-	display: block;
-	padding: 3px;
-	padding-left: 10px;
+.table-left {
+	width: 20%;
 	overflow: hidden;
-	
-	
 }
-.wrapper-content {
-	height: 100px;
+.table-right {
+	width: 80%;
+	overflow: hidden;
+	text-align: center;
 }
-.portrait {
-	width: 160px;
-	height: 120px;
+.port-img {
+	width: 120px;
+	height: 90px;
+	margin: 10px auto;
 	display: block;
-	float: left;
+	clear: both;
 }
