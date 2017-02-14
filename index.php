@@ -1,3 +1,13 @@
+<?php
+	$name= 'Сагайдачний Богдан Ярославович';
+	$age="32 ";
+	$phone_cell= ' 044-777-7777';
+	$phone_home= ' 067-333-3333';
+	$city= 'г.Киев';
+	$email= 'lucky@7sky.com'
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +24,6 @@
 
 	<div id="content">
 		<table>
-
 			<tr >
 				<td class="table-left"> 
 					<img src="img/who.jpg" class="port-img" alt="portrait photo" >
@@ -25,13 +34,12 @@
 				<td class="table-left" >Контактные данные</td>
 				<td class="table-right">
 					<ul>
-						<li>ФИО: Сагайдачний Богдан Ярославович </li>
-						<li><!--Возвраст-->32 года</li>
-						<li>Тел</li>
-						<li><!--Место проживания-->г. Киев</li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li><!--ФИО:--> 		<?=$name ?>  </li>
+						<li><!--Возвраст--> 	<?=$age ?>года</li>
+						<li><!--Тел-->  моб<?=$phone_cell ?> дом <?=$phone_home ?>  </li>
+						<li><!--Город прож.-->  <?=$city ?></li>
+						<li><!--Email--> 		<?=$email ?></li>
+						
 					</ul>
 				</td>
 			</tr>
