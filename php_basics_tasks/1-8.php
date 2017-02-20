@@ -1,7 +1,7 @@
 <?php
 
 $name= 'Кирилл';
-$age= '28';
+$age= 'test';
 
 echo "Меня зовут: {$name} </br>";
 
@@ -12,7 +12,7 @@ if ($age >=18 & $age <=59) {
 
 } elseif ($age >59) {
     echo "Вам пора на пенсию";
-} elseif ($age >=0 & $age<18)  {
+} elseif ($age >=1 & $age<18)  {
     echo "Вам еще рано работать";
 }
 else {

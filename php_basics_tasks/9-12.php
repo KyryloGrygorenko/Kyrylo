@@ -1,14 +1,29 @@
 <?php
 
-$i= 4;
+$i= 0;
 switch ($i) {
-    case ($i>=1 && $i<=5):
+    case 1:
         echo "Это рабочий день";
         break;
-    case ($i>=6 && $i<=7):
+    case 2:
+        echo "Это рабочий день";
+        break;
+    case 3:
+        echo "Это рабочий день";
+        break;
+    case 4:
+        echo "Это рабочий день";
+        break;
+    case 5:
+        echo "Это рабочий день";
+        break;
+    case 6:
         echo "Это выходной день";
         break;
-    case ($i>8 || $i<=0 ):
+    case 7:
+        echo "Это выходной день";
+        break;
+    default:
         echo "Неизвестный день";
         break;
 }
