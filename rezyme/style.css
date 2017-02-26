@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	background: #232533;
+}
+h1 {
+	font-size: 35px;
+	font-family: Sans-serif;
+}
+
+#wrapper,#content,#footer {
+	
+	padding: 5px 10px;
+} 
+#wrapper {
+	width: 1400px;
+	padding: 0px;
+	margin: 0px auto;
+}
+#header {
+	height: 170px;
+	margin:0;
+	background: url(img/header.jpg);
+}
+
+#content {
+	background-color: #c7d4d9;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 800px;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	
+}
+
+table td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.table-left {
+	width: 20%;
+	overflow: hidden;
+}
+
+.table-right {
+	width: 80%;
+	overflow: hidden;
+}
+
+.port-img {
+	width: 120px;
+	height: 90px;
+	margin: 10px auto;
+	display: block;
+	clear: both;
+}
+
+.social {
+	margin: 0 auto;
+}
+.social a {
+	display: inline-block;
+	margin-left: 25px;
+	padding-left: 20px;
+	color: #8f8f8f;
+	font-size: 12px;
+	height: 13px;
+	line-height: 13px;
+	background: url(img/social-ic.png) no-repeat;
+
+}
+.social a:hover {color: #555;}
+.social a:first-child { margin-left: 0px; }
+
+.social .tw {background-position: 0 0;}
+.social .fb {background-position: 0 -13px;}
+.social .rs {background-position: 0 -26px;}
+.social .em {background-position: 0 -39px;}
+
+#footer {
+	height: 100px;
+	background-color: #ffffff;
+	margin: 10px auto;
+	min-width: 500px;
+}
