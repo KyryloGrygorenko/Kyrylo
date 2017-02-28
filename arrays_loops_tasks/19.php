@@ -1,12 +1,10 @@
 <?php
 
+$arr = array('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday');
 
-
-$arr = array('Пн','Вт','Ср','ЧТ','Пт','Сб','Вс');
-$day='Сб';
 foreach ($arr as $value)
 {
-    if ($value == 'Сб')
+    if ($value == date("l"))
     {
         echo "<i>$value </i>";
     }

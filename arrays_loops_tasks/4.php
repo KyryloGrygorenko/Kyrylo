@@ -2,10 +2,9 @@
 
 
 $arr = array('green'=>'зеленый', 'red'=>'красный','blue'=>'голубой');
-    /*foreach ($arr as $k => $v) {
+    foreach ($arr as $k => $v) {
          echo "$k <br>";}
 
     foreach ($arr as $k => $v) {
-        echo "$v <br>}*/
+        echo "$v <br>"; }
 
-?>
