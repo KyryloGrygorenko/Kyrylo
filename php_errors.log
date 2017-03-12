@@ -1,0 +1,129 @@
+[12-Mar-2017 11:04:51 UTC] PHP Warning:  file_get_contents(text.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/3.php on line 30
+[12-Mar-2017 11:04:51 UTC] PHP Stack trace:
+[12-Mar-2017 11:04:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/3.php:0
+[12-Mar-2017 11:04:51 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/functions_forms_tasks/3.php:30
+[12-Mar-2017 11:05:26 UTC] PHP Warning:  scandir(C:\xampp\htdocs\President): failed to open dir: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:05:26 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:05:26 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:05:26 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:05:26 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:05:26 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:05:26 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:05:26 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:05:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 8
+[12-Mar-2017 11:05:26 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:05:26 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:05:54 UTC] PHP Warning:  scandir(gallery/): failed to open dir: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/6.php on line 39
+[12-Mar-2017 11:05:54 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/6.php:0
+[12-Mar-2017 11:05:54 UTC] PHP   2. scandir() /home/ubuntu/workspace/functions_forms_tasks/6.php:39
+[12-Mar-2017 11:05:54 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/6.php on line 39
+[12-Mar-2017 11:05:54 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/6.php:0
+[12-Mar-2017 11:05:54 UTC] PHP   2. scandir() /home/ubuntu/workspace/functions_forms_tasks/6.php:39
+[12-Mar-2017 11:05:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/6.php on line 39
+[12-Mar-2017 11:05:54 UTC] PHP Stack trace:
+[12-Mar-2017 11:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/6.php:0
+[12-Mar-2017 11:08:39 UTC] PHP Warning:  scandir(C:\xampp\htdocs\President): failed to open dir: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:08:39 UTC] PHP Stack trace:
+[12-Mar-2017 11:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:08:39 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:08:39 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:08:39 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:08:39 UTC] PHP Stack trace:
+[12-Mar-2017 11:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:08:39 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:08:39 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:08:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 8
+[12-Mar-2017 11:08:39 UTC] PHP Stack trace:
+[12-Mar-2017 11:08:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:08:39 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:11:20 UTC] PHP Warning:  scandir(https://kyrylo-toplife.c9users.io/functions_forms_tasks/): failed to open dir: not implemented in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:11:20 UTC] PHP Stack trace:
+[12-Mar-2017 11:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:11:20 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:11:20 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:11:20 UTC] PHP Warning:  scandir(): (errno 107): Transport endpoint is not connected in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 7
+[12-Mar-2017 11:11:20 UTC] PHP Stack trace:
+[12-Mar-2017 11:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:11:20 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:11:20 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/4.php:7
+[12-Mar-2017 11:11:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/4.php on line 8
+[12-Mar-2017 11:11:20 UTC] PHP Stack trace:
+[12-Mar-2017 11:11:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/4.php:0
+[12-Mar-2017 11:11:20 UTC] PHP   2. displayfilelist() /home/ubuntu/workspace/functions_forms_tasks/4.php:12
+[12-Mar-2017 11:11:58 UTC] PHP Warning:  file_get_contents(text.txt): failed to open stream: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/3.php on line 30
+[12-Mar-2017 11:11:58 UTC] PHP Stack trace:
+[12-Mar-2017 11:11:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/3.php:0
+[12-Mar-2017 11:11:58 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/functions_forms_tasks/3.php:30
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:14:56 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 17
+[12-Mar-2017 11:14:56 UTC] PHP Stack trace:
+[12-Mar-2017 11:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:14:56 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:14:56 UTC] PHP   3. strpos() /home/ubuntu/workspace/functions_forms_tasks/5.php:17
+[12-Mar-2017 11:15:30 UTC] PHP Warning:  scandir(https://ide.c9.io/toplife/kyrylo): failed to open dir: not implemented in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 7
+[12-Mar-2017 11:15:30 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:30 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:15:30 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/5.php:7
+[12-Mar-2017 11:15:30 UTC] PHP Warning:  scandir(): (errno 107): Transport endpoint is not connected in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 7
+[12-Mar-2017 11:15:30 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:30 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:15:30 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/5.php:7
+[12-Mar-2017 11:15:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 8
+[12-Mar-2017 11:15:30 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:30 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:15:48 UTC] PHP Warning:  scandir( /home/ubuntu/workspace/functions_forms_tasks/): failed to open dir: No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 7
+[12-Mar-2017 11:15:48 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:48 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:15:48 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/5.php:7
+[12-Mar-2017 11:15:48 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 7
+[12-Mar-2017 11:15:48 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:48 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
+[12-Mar-2017 11:15:48 UTC] PHP   3. scandir() /home/ubuntu/workspace/functions_forms_tasks/5.php:7
+[12-Mar-2017 11:15:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/functions_forms_tasks/5.php on line 8
+[12-Mar-2017 11:15:48 UTC] PHP Stack trace:
+[12-Mar-2017 11:15:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/functions_forms_tasks/5.php:0
+[12-Mar-2017 11:15:48 UTC] PHP   2. search_file() /home/ubuntu/workspace/functions_forms_tasks/5.php:60
