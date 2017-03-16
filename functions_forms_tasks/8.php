@@ -1,58 +1,56 @@
 <?php
+
 function isRequestPost()
 {
     return (bool) $_POST;
 }
-$bad_words = array('badword1','badword2','badword3','badword4');// Массив нецензурных слов
-
-$separate_comments_by=' security-444-devide-by '; //По этому тексту мы разобьем тескт из файла на массив
-                                                 //Также можно сделать это с помощью сериализации.(serialize а потом unserialize)
-
 
     if (file_exists('comments.txt')){
         $f = fopen('comments.txt', 'r');
+
         $comments_array=[];
-        $comments=file_get_contents('comments.txt');
+       // print_r(unserialize(file_get_contents('comments.txt')));
+        $comments= file_get_contents('comments.txt');
+        $comments= explode(PHP_EOL, $comments);
 
-        $comments_array=explode($separate_comments_by , $comments);
-
-        foreach ($comments_array as $key => $value) {
-            $comment_number=$key+1;
-            if ($value != '' && $value != ' ' ){
-                echo $comment_number .'й' . ' Комментарий' .  '<p>' . $value .'</p>';
+        foreach ($comments as $key => $comment) {
+            if ($comment) {
+                $comments[$key] = unserialize($comment);
+                continue;
             }
-
+            //unset($comment[$key]);
         }
+
+        foreach ($comments as $key => $comment) {
+
+            if (isset($comment['name']))echo $comment['name'].'<br>';
+            if (isset($comment['text']))echo $comment['text'].'<br>' .'<br>';
+        }
+
+
     }
+//$comment=[];
 
-
-
-if (isset($_POST['text'])) {
+if (isset($_POST['text']) && isset($_POST['name']) ) {
     $f = fopen('comments.txt', 'a+');
-    $comment=$_POST['text'];
-    $comments_array= explode(' ',$comment);
 
-    foreach ($comments_array as $key => $value){
-        for ($i=0;$i<count($bad_words);$i++){
-            if ($value == $bad_words[$i]){
-            //unset($comments_array[$key]);  // Либо удаляем нецензурное выражение
-            $comments_array[$key]= ' !_ПЛОХОЕ_СЛОВО_! ';// Либо заменяем его
-            }
-        }
+    $name=strip_tags($_POST['name']);//Удаляем из строки  все теги кроме '&lt;b&gt;.</p>*/'
+    $text=strip_tags($_POST['text']);//Удаляем из строки  все теги кроме '&lt;b&gt;.</p>*/'
 
-    }
-    $comment=implode(' ',$comments_array);
+    $comment= compact('name','text');
 
-    if ($comment != ''){
-        fwrite($f,$comment . $separate_comments_by);//Добавил текст в конце строки что б по нему разбить строки при создании массива
+    $comment = serialize($comment);
+
+
+    if ($comment != '') {
+        fwrite($f, $comment.PHP_EOL);
         header("Location: 8.php");
     }
-
-}
-else {
-    echo 'Оставьте свой комментарий';
 }
 
+
+
+   echo 'Оставьте свой комментарий';
 ?>
 <!DOCTYPE html>
 <html>
@@ -62,7 +60,10 @@ else {
 </head>
 <body>
 <form action="" method="post">
-    <textarea name="text" ></textarea>
+    Имя<input name="name" type="text">
+    <br>
+    <br>
+    Текст<textarea name="text" ></textarea>
     <br>
     <button>Отправить</button>
 </form>
